@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: blue;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 12px solid rgb(0, 0, 77);
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button{
+    margin-left: 16px;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 24px 0;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+input, button{
+padding: 8px;
+}
+
+button{
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+#botao-cancelar{
+    background-color: red;
+}
+
+ul{
+    justify-content: center;
+}
+ul li{
+    text-align: center;
+    font-size: 27px;
+    padding-top: 25px;
+}
+
+.linha-meio{
+    text-decoration: line-through;
+    color: black;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
